@@ -2,6 +2,8 @@
 django-face-off
 ===============
 
+Providing a user switch for admin users without exposing passwords.
+
 Installation
 ============
 
