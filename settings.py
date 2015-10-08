@@ -22,9 +22,9 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.admindocs',
-    'app_name',
+    'face_off',
 )
 
-ROOT_URLCONF = 'app_name.urls'
+ROOT_URLCONF = 'face_off.urls'
 
 SITE_ID = 1
