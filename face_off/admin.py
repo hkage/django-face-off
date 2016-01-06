@@ -1,3 +1,10 @@
 from django.contrib import admin
 
-# Register your models here.
+from face_off.models import UserRepresentation
+
+
+class UserRepresentationAdmin(admin.ModelAdmin):
+    pass
+
+
+admin.site.register(UserRepresentation, UserRepresentationAdmin)

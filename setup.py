@@ -25,9 +25,13 @@ setup(name='django-face-off',
     url='https://github.com/hkage/django-face-off',
     license='MIT',
     classifiers=[
+        'Environment :: Web Environment',
         'Development Status :: 4 - Beta',
         'Framework :: Django',
         'License :: OSI Approved :: MIT License',
+        'Intended Audience :: Developers',
+        'Topic :: Internet :: WWW/HTTP',
+        'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
     packages=find_packages(exclude=[
         'tests',
