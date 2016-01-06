@@ -1,5 +1,6 @@
 .cache
 *.egg-info
 *.eggs
+*.sqlite3
 build/
 dist/
