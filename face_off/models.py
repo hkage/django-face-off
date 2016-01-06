@@ -16,3 +16,6 @@ class UserRepresentation(models.Model):
     class Meta:
         verbose_name = _(u'User representative')
         verbose_name_plural = _(u'User representatives')
+
+    def __unicode__(self):
+        return '{} -> {}'.format(self.representative, self.user)
