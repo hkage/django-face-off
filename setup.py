@@ -38,11 +38,8 @@ setup(name='django-face-off',
         'example'
     ]),
     include_package_data=True,
-    setup_requires=[
-        'pytest-runner==2.6.2',
-    ],
     install_requires=[
-        'Django>=1.6',
+        'Django>=1.4',
     ],
     tests_require=tests_require,
     extras_require={'test': tests_require},

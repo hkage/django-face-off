@@ -1,12 +1,16 @@
 django-face-off
 ===============
 
-Django application to provide a user switch for admin users without exposing
+A Django application to provide a user switch for admin users without exposing the actual users
 passwords.
 
 Features
 --
 * Admin form to activate the user switch
+
+Supports
+--
+* Django >= 1.4
 
 Installation
 --
@@ -27,17 +31,13 @@ Usage
 Add ``face-off`` to the list of installed apps in your settings:
 
     INSTALLED_APPS = (
-        # ...
-        'face_off',
-        # ...
+        'face_off'
     )
 
 Add the middleware:
 
     MIDDLEWARE_CLASSES = (
-        # ...
         'face_off.middleware.UserRepresentationMiddleware',
-        # ...
     )
 
 Run the migration:
@@ -47,7 +47,7 @@ Run the migration:
 Testing
 --
 
-    $ python setup.py test
+    $ py.test
 
 Settings
 --
