@@ -4,6 +4,6 @@
 #
 #    pip-compile --output-file requirements/production.txt requirements/production.in
 #
-django==2.2.10
+django==2.2.13
 pytz==2017.3
 sqlparse==0.3.0
